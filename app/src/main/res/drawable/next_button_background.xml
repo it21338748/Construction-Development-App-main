@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FF5722" /> <!-- Button background color -->
+            <corners android:radius="36dp" /> <!-- Half of the width/height, to make it fully rounded -->
+        </shape>
+
+
+    </item>
+</selector>

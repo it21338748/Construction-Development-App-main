@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "812384564704",
+    "firebase_url": "https://construction-mangement-default-rtdb.firebaseio.com",
+    "project_id": "construction-mangement",
+    "storage_bucket": "construction-mangement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812384564704:android:1c66493ad62c688d67a785",
+        "android_client_info": {
+          "package_name": "com.construction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUrQAIPbNN_ZaDQ9hpQ4dCuBHpllv0co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812384564704:android:bc614657199b094b67a785",
+        "android_client_info": {
+          "package_name": "com.example.constructiondevelopmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUrQAIPbNN_ZaDQ9hpQ4dCuBHpllv0co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812384564704:android:c123d6be836e97f367a785",
+        "android_client_info": {
+          "package_name": "com.example.constructionmanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUrQAIPbNN_ZaDQ9hpQ4dCuBHpllv0co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812384564704-n542i299glrjm97gcasn1jlf7hibl24i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

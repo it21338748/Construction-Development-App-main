@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter name"
+         android:paddingStart="8dp"
+        android:drawablePadding="8dp"
+        android:paddingEnd="8dp" />
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter Amount"
+        android:paddingStart="8dp"
+
+         android:drawablePadding="8dp"
+        android:paddingEnd="8dp" />
+
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    android:background="@color/white"
+    android:layout_margin="15dp"
+    tools:context=".MoreDetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GET MORE INFORMATION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Spinner
+        android:id="@+id/spinnerImageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:entries="@array/MoreDetails"
+        android:minHeight="48dp"
+        android:background="@drawable/textview_background"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/getImage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80sp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="@color/main"
+        android:text="Download PDF" />
+
+</LinearLayout>

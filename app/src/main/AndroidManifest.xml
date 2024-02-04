@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.example.constructiondevelopmentapp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.constructiondevelopmentapp.permission.MAPS_RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConstructionDevelopmentApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ExpertsRegistrationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExpertsLoginActivity"
+            android:theme="@style/Theme.App.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExpertsList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ExpertDetails"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.constructiondevelopmentapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".ServiceMainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+
+        <activity
+            android:name=".MoreDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".RatingReportActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".MaterialDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".MaterialActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".GreenDashboardActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7134557124302414~3424521562" />
+
+
+        <activity
+            android:name=".bidderList"
+            android:exported="false" />
+        <activity
+            android:name=".BidderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".popupAmountInput"
+            android:exported="false" />
+        <activity
+            android:name=".tenderDetails"
+            android:exported="false" />
+        <activity
+            android:name=".tenderItem"
+            android:exported="false" />
+        <activity
+            android:name=".tenderForm"
+            android:exported="false" />
+        <activity
+            android:name=".TenderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".TenderList"
+            android:exported="false" />
+        <activity
+            android:name=".AmountInputDialogFragment"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".SupplierProfileCustomerSide"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DetailsForm"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SingleItemSupplierSide"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ItemList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SupplierProfileSupplierSide"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ItemListCustomerSide"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SupplierList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SingleItem"
+            android:label="Single Item">
+        </activity>
+        <activity
+            android:name=".SingleItemUpdate"
+            android:label="Single Item">
+        </activity>
+
+
+    </application>
+
+</manifest>

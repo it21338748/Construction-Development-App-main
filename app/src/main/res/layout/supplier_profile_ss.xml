@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/custome_purple"
+    app:layout_anchorGravity="center"
+    tools:context=".SupplierProfileCustomerSide">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="@color/teal_700">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="572dp"
+                    android:layout_height="334dp"
+                    android:layout_marginStart="-80dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/halfc" />
+
+                <ImageView
+                    android:id="@+id/sup_profile_cs_img"
+                    android:layout_width="124dp"
+                    android:layout_height="131dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/user_1" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/sup_profile_cs_img"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.741" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:layout_marginLeft="-410dp"
+                android:layout_marginTop="200dp"
+                android:orientation="vertical"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Description" />
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Phone No" />
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Address" />
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_emaoil"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Email" />
+
+                <EditText
+                    android:id="@+id/supplier_profile_ss_et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:text="Password" />
+
+                <TextView
+                    android:id="@+id/supplier_profile_ss_tv_rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:paddingLeft="10dp"
+                    android:text="My Ratings" />
+
+                <Button
+                    android:id="@+id/supplier_profile_ss_btn_addstocks"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Add Stocks" />
+
+                <Button
+                    android:id="@+id/supplier_profile_ss_btn_dashboard"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="Dashboard" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="710dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

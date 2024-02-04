@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="363dp"
+            android:layout_height="70dp"
+            android:background="#64CCC5"
+            android:gravity="center"
+            android:text="Tender Details"
+            android:textColor="#F1F1F1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tenderTitleTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textColor="#176B87"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/refNumberTextView2"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenderTitleTextView2"
+            android:layout_marginTop="16dp"
+            android:background="#F1F1F1"
+            android:text="Ref No:"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/provinceTextView2"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refNumberTextView2"
+            android:layout_marginTop="16dp"
+            android:text="Province:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ministryTextView2"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/provinceTextView2"
+            android:layout_marginTop="16dp"
+            android:background="#F1F1F1"
+            android:text="Ministry:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tenderValueTextView2"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ministryTextView2"
+            android:layout_marginTop="16dp"
+            android:text="Tender Value:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/industryTextView2"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenderValueTextView2"
+            android:layout_marginTop="16dp"
+            android:background="#F1F1F1"
+            android:text="Industry:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sectorTextView2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/industryTextView2"
+            android:layout_marginTop="16dp"
+            android:text="Sector:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/publishedOnTextView2"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sectorTextView2"
+            android:layout_marginTop="16dp"
+            android:background="#F1F1F1"
+            android:text="Published On:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/closingOnTextView2"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/publishedOnTextView2"
+            android:layout_marginTop="16dp"
+            android:text="Closing On:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/descriptionTextView2"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/closingOnTextView2"
+            android:layout_marginTop="16dp"
+            android:background="#F1F1F1"
+            android:text="Description:"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/tenderImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionTextView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <!--    <Button-->
+        <!--        android:id="@+id/downloadImageButton"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_below="@id/tenderImageView2"-->
+        <!--        android:background="@color/downloadBtn"-->
+        <!--        android:text="Download Image"-->
+        <!--        android:textColor="#651B1717" />-->
+
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tenderImageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="APPLY" />
+        <!-- You can add additional TextViews for more fields if needed -->
+
+    </RelativeLayout>
+</ScrollView>

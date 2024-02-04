@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update Profile"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="profile photo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_photo"
+                    app:civ_border_width="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="@string/fullName"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your Name"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/email"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/password"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updatePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textRePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/rePassword"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateRePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Re-Type Your Password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textContatct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/contact"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your Contact Number"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textCharges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/charges"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateCharges"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your Charges"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textAboutMe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:text="@string/aboutMe"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/updateAboutMe"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Enter Your about"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#707070"
+                    android:textSize="18sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/districtName"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="@string/District"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteY="30dp" />
+
+                    <Spinner
+                        android:id="@+id/district"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:entries="@array/districts"
+                        android:padding="12dp"
+                        android:textColor="#707070"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toStartOf="@+id/job"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/districtName" />
+
+                    <TextView
+                        android:id="@+id/jobType"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="@string/jobType"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteY="30dp" />
+
+                    <Spinner
+                        android:id="@+id/job"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:entries="@array/Job"
+                        android:padding="12dp"
+                        android:textColor="#707070"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/jobType" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <fragment
+                    android:id="@+id/mapFragment"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="20dp"
+                    tools:context=".UpdateProfileActivity" />
+
+
+                <Button
+                    android:id="@+id/registerBtn"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="@string/update"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/updateRawMaterialButton"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="@string/itemBtn"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

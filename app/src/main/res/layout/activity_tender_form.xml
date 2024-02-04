@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="56dp"
+            android:background="#64CCC5"
+            android:gravity="center"
+            android:text="Tender Form"
+            android:textColor="#F1F1F1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tender Title:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTenderTitle"
+            android:layout_width="384dp"
+            android:layout_height="58dp"
+            android:background="#EEEEEE"
+            android:hint="Enter Tender Title"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ref Number:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextRefNumber"
+            android:layout_width="381dp"
+            android:layout_height="65dp"
+            android:hint="Enter Ref Number"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Province:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextProvince"
+            android:layout_width="384dp"
+            android:layout_height="59dp"
+            android:hint="Enter Province"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ministry/Department:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextMinistry"
+            android:layout_width="387dp"
+            android:layout_height="57dp"
+            android:hint="Enter Ministry/Department"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tender Value:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTenderValue"
+            android:layout_width="386dp"
+            android:layout_height="63dp"
+            android:hint="Enter Tender Value"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Industry:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextIndustry"
+            android:layout_width="384dp"
+            android:layout_height="63dp"
+            android:hint="Enter Industry"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sector:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextSector"
+            android:layout_width="383dp"
+            android:layout_height="59dp"
+            android:hint="Enter Sector"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Published On:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPublishedOn"
+            android:layout_width="384dp"
+            android:layout_height="61dp"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="Select Publish On Date"
+            android:background="#F2F2F2"
+            android:padding="8dp"
+            android:onClick="showPublishOnDatePicker"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Closing On:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextClosingOn"
+            android:layout_width="383dp"
+            android:layout_height="64dp"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="Select Closing On Date"
+            android:background="#F2F2F2"
+            android:padding="8dp"
+            android:onClick="showClosingOnDatePicker" />
+
+        <ImageView
+            android:id="@+id/selectedImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/uploadimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="uploadImage"
+            android:text="Upload Image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Description"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:background="#F2F2F2"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submitTenderForm"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:id="@+id/coverHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:fontFamily="@font/aclonica"
+        android:padding="16dp"
+        android:text="GREEN LIBRARY"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coverHeading"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/coverImage"
+                android:layout_width="519dp"
+                android:layout_height="225dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/coverphoto" />
+
+            <ImageView
+                android:id="@+id/materialImage"
+                android:layout_width="162dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="260dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.128"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/materials" />
+
+            <Button
+                android:id="@+id/materialBtn"
+                android:layout_width="137dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="452dp"
+                android:backgroundTint="@color/main"
+                android:text="Materials"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/serviceImage"
+                android:layout_width="162dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="260dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.936"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/services" />
+
+            <Button
+                android:id="@+id/serviceBtn"
+                android:layout_width="137dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="452dp"
+                android:backgroundTint="@color/main"
+                android:text="Services"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.888"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ReportImage"
+                android:layout_width="162dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="580dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/report" />
+
+            <Button
+                android:id="@+id/reportBtn"
+                android:layout_width="137dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="776dp"
+                android:backgroundTint="@color/main"
+                android:text="Rating Report"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.194"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="DuplicateClickableBoundsCheck" />
+
+            <ImageView
+                android:id="@+id/infoImage"
+                android:layout_width="162dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="580dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.936"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/moreinfo" />
+
+            <Button
+                android:id="@+id/infoBtn"
+                android:layout_width="137dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="776dp"
+                android:backgroundTint="@color/main"
+                android:text="More Details"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.913"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

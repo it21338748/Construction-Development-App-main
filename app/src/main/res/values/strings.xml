@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">BuildBuddy</string>
+    <string name="District">District</string>
+    <string-array name="District">
+        <item>None</item>
+        <item>Colombo</item>
+        <item>Gampaha</item>
+        <item>Kaluthara</item>
+        <item>Galle</item>
+        <item>Mathara</item>
+        <item>Galle</item>
+        <item>Mathara</item>
+        <item>Hambanthota</item>
+        <item>Ampara</item>
+        <item>Nuwara</item>
+    </string-array>
+
+    <string name="Job">Job</string>
+    <string-array name="Job">
+        <item>None</item>
+        <item>Carpenter</item>
+        <item>Plumber</item>
+        <item>Meson</item>
+        <item>Electrician</item>
+        <item>Welder</item>
+        <item>Architect</item>
+        <item>Estimeter</item>
+        <item>Supplier</item>
+    </string-array>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="rePassword">Re-Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="update">UPDATE PROFILE</string>
+    <string name="fullName">Full Name</string>
+    <string name="district">District</string>
+    <string name="jobType">Job Type</string>
+
+    <string name="name">Name</string>
+    <string name="occupation">Occupation</string>
+    <string name="charges">Charges</string>
+    <string name="contact">Contact</string>
+    <string name="aboutMe">Description</string>
+    <string name="itemBtn">View Item</string>
+    <string name="map_content_description">User\'s Location on Map</string>
+
+    <string name="supplier">Supplier</string>
+    <string name="greenBuilding">Green Building</string>
+    <string name="tender">Tender</string>
+    <string name="carpenter">Carpenter</string>
+    <string name="meson">Meson</string>
+    <string name="plumber">Plumber</string>
+    <string name="Electrician">Electrician</string>
+    <string name="painter">Painter</string>
+    <string name="estimater">Estimater</string>
+    <string name="welder">Welder</string>
+    <string name="architect">Architect</string>
+
+
+
+
+
+
+    <string name="news_a">aaaaaaaaaacccccccccccccccccccccccccccccccccccccccccjjjjjjjjjjjjjjjjjjllllllll
+    hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</string>
+
+
+    <string name="news_concrete">Green concrete, also known as eco-friendly or sustainable concrete, is a revolutionary construction material designed with a strong focus on reducing its environmental impact. It achieves this by using alternative and recycled materials, such as industrial byproducts like fly ash, slag, and silica fume, which help reduce the consumption of traditional cement. Additionally, green concrete often incorporates recycled aggregates like crushed concrete or glass, reducing the demand for natural resources. Its production typically results in lower carbon emissions, making it more environmentally responsible.
+        Green concrete not only contributes to sustainability but also offers comparable or even enhanced durability and performance compared to traditional concrete. With the construction industry is growing emphasis on sustainability, green concrete is playing a pivotal role in reducing its ecological footprint and promoting a greener and more sustainable future.</string>
+
+    <string name="news_carpet">Natural fiber carpets offer a sustainable and environmentally friendly flooring option for those seeking a harmonious blend of style and eco-consciousness. Crafted from renewable plant-based materials like sisal, seagrass, jute, and coir, these carpets are biodegradable, ensuring minimal environmental impact.
+        Beyond their eco-credentials, natural fiber carpets exude a unique, earthy aesthetic, providing a warm and organic ambiance to any space. While they may not be as plush as synthetic counterparts, their durability and resistance to wear and tear make them an excellent choice for high-traffic areas. With their low VOC (volatile organic compound) emissions, natural fiber carpets also contribute to better indoor air quality. Whether you are seeking a sustainable design statement or a healthier home environment, natural fiber carpets are a compelling choice, merging style, eco-responsibility, and practicality.</string>
+
+    <string name="news_bamboo">Bamboo flooring is a remarkable and sustainable alternative to traditional hardwood flooring. It is created from bamboo grass, one of the fastest-growing plants on Earth, which makes it an eco-friendly choice. Bamboo is rapid growth ensures a readily available and renewable source of material for flooring. Beyond its green credentials, bamboo flooring offers durability, strength, and a unique, elegant appearance.
+        It is also easy to maintain and resistant to moisture, making it suitable for various spaces, including kitchens and bathrooms. Its natural beauty and variety of styles, from light to dark shades, make it a versatile choice for both modern and traditional home designs. For those seeking a combination of aesthetics and environmental responsibility, bamboo flooring stands as a compelling option, offering the warmth and appeal of hardwood while minimizing its ecological footprint.</string>
+
+    <string name="news_metal">Recycled metal, an integral part of the metal industrys circular economy, embodies sustainability and environmental responsibility. It comprises metals that have been used, discarded, and then collected for processing and reuse, minimizing the environmental footprint associated with metal production.
+        The benefits of recycling metal are manifold, from reducing energy consumption and greenhouse gas emissions to conserving precious natural resources. Collected from various sources and meticulously sorted, recycled metal undergoes purification and transformation, ultimately finding its way into an array of new products.
+        This process not only contributes to environmental conservation but also fuels economic growth and job creation while stabilizing metal prices. It is a global effort with local impact, encouraging consumer participation and regulatory support to further its reach and benefits. Recycled metal epitomizes the sustainable and eco-conscious future of the metal industry.</string>
+
+    <string name="news_solar">Solar panels, also known as photovoltaic panels, are essential components of solar energy systems, converting sunlight into electricity through the photovoltaic effect. Comprising interconnected solar cells, these panels capture solar photons, generating a direct current (DC) electrical flow. Solar energy is a clean and renewable source, making it an eco-friendly solution for powering homes, businesses, and more.
+        Solar panels come with inverters to convert DC electricity into usable alternating current (AC), and they can be mounted on rooftops or structures with precise orientation for maximum efficiency. Beyond environmental benefits, solar panels offer economic advantages, reducing energy bills and enabling excess power to be sold back to the grid. They require minimal maintenance and often come with government incentives, supporting their widespread adoption. As technology advances, solar panels continue to drive the global shift towards cleaner and more sustainable energy sources, contributing to a greener and more energy-efficient future.</string>
+
+    <string name="news_fencing">Recycled plastic fencing posts are an eco-friendly and sustainable choice for outdoor fencing solutions. These posts, made from materials like recycled high-density polyethylene (HDPE) or polyvinyl chloride (PVC), not only reduce the demand for new plastic production but also contribute to minimizing plastic waste in landfills. Their durability and resistance to rot, moisture, and insects make them a low-maintenance option, as they do not require treatments or paint.
+        Recycled plastic posts can withstand harsh weather conditions, and their variety of styles and colors offer aesthetic flexibility. Although the initial cost may be higher, their long-term durability and minimal maintenance requirements make them a cost-effective and environmentally responsible choice, helping to reduce the carbon footprint of outdoor construction projects. Additionally, these posts are often recyclable at the end of their lifecycle, making them a truly sustainable fencing option.</string>
+
+    <string name="news_bottle">Recycled plastic bottles find innovative and eco-friendly applications in building and construction, contributing to sustainable and environmentally responsible practices. One of the most common uses is in the creation of "bottle bricks" or "eco-bricks," where plastic bottles are tightly packed with non-biodegradable waste, serving as a building block. Here is a paragraph outlining the usage of recycled plastic bottles in construction:
+        "In building and construction, recycled plastic bottles are ingeniously repurposed as building blocks, often referred to as 'bottle bricks' or 'eco-bricks.' These bottles are densely packed with non-biodegradable waste, such as plastic wrappers or packaging materials, creating sturdy and sustainable construction materials. These bottle bricks are used for various purposes, including constructing walls, partitions, and even entire structures.
+        They not only provide an eco-friendly solution for disposing of plastic waste but also offer an affordable and durable building material. This approach not only reduces the environmental impact of construction but also promotes the reuse of waste materials, making it a notable example of sustainability in the construction industry."</string>
+
+    <string name="news_wood">Sustainable wood, often referred to as eco-friendly or green wood, plays a pivotal role in promoting responsible forestry practices and environmentally conscious construction. This type of wood is sourced from well-managed forests and carries certifications from organizations like the Forest Stewardship Council (FSC) and the Sustainable Forestry Initiative (SFI). Here is a paragraph about sustainable wood:
+        "Sustainable wood stands as a beacon of responsible resource management in the timber industry. It comes from forests where trees are carefully harvested to ensure the long-term health of the ecosystem. Certified by organizations such as the Forest Stewardship Council (FSC), sustainable wood guarantees that the forests are managed sustainably, respecting biodiversity, local communities, and the environment.
+        By choosing sustainable wood, we not only support the preservation of our precious forests but also promote eco-conscious construction and manufacturing. This renewable resource embodies the essence of sustainability, offering an eco-friendly alternative that maintains the delicate balance between human needs and nature iss vitality, ensuring that the legacy of our forests endures for generations to come."
+</string>
+
+    <string name="news_energy">Energy efficiency is a pivotal concept in todays world, focusing on using less energy to accomplish the same tasks or achieve higher levels of performance. It plays a central role in reducing greenhouse gas emissions, lowering energy bills, and enhancing energy security. Energy-efficient technologies and practices encompass a wide range of applications, from energy-efficient appliances and lighting to well-insulated buildings and optimized industrial processes.
+        By embracing energy efficiency, individuals, businesses, and governments can make a significant impact on sustainability, promoting a cleaner environment and more affordable energy consumption. Its a win-win solution that not only conserves precious resources but also fosters innovation and economic growth while addressing the pressing global challenges of climate change and energy sustainability.</string>
+
+    <string name="news_rainwater">Rainwater harvesting is a sustainable and environmentally responsible practice that involves collecting and storing rainwater for various purposes. This simple yet effective technique can be employed at both residential and commercial levels, helping to reduce the reliance on conventional water sources and easing the burden on water supply systems. Rainwater is typically collected from rooftops and channeled through gutters and downspouts into storage tanks or cisterns.
+        This harvested rainwater can then be used for a range of non-potable purposes, such as landscape irrigation, flushing toilets, and even for certain industrial applications. Beyond its practical benefits, rainwater harvesting contributes to water conservation and helps mitigate urban flooding. It represents a valuable tool in building a more sustainable, water-resilient future while reducing the strain on municipal water resources and treatment facilities.</string>
+
+    <string name="news_waste">Waste reduction is a critical component of sustainable living and responsible resource management. It involves minimizing the amount of waste generated in various processes, from production and consumption to disposal. This can be achieved through practices like recycling, composting, reusing items, and reducing unnecessary packaging.
+        Waste reduction not only conserves valuable resources and reduces the environmental impact of landfills and incineration but also offers economic benefits by cutting waste disposal costs and creating opportunities for recycling industries. As societies worldwide grapple with the challenges of excessive waste and environmental sustainability, waste reduction emerges as a key strategy to promote a greener and more efficient future.
+        It encourages a shift from the linear "take, make, dispose" model to a more circular economy, where resources are conserved, and waste is minimized, benefiting both the planet and its inhabitants.</string>
+
+    <string name="news_leed">LEED (Leadership in Energy and Environmental Design) certification is a globally recognized standard for sustainable building design and construction. It evaluates buildings and construction projects based on their environmental and sustainability performance, encouraging the development of more energy-efficient, resource-conscious, and environmentally responsible structures.
+        LEED certification takes into account a variety of factors, including energy efficiency, water conservation, indoor air quality, and the use of sustainable materials. Achieving LEED certification signifies a commitment to environmental stewardship, as it demonstrates a project is adherence to high-performance green building standards.
+        Beyond its ecological benefits, LEED-certified buildings often result in lower operating costs, healthier indoor environments, and increased property value. As the demand for sustainable and environmentally friendly buildings continues to grow, LEED certification plays a pivotal role in guiding the construction industry toward a greener and more sustainable future.</string>
+
+    <string name="news_air">Indoor air quality (IAQ) is a critical aspect of creating healthy and comfortable living and working environments. It refers to the quality of the air within buildings, including homes, offices, and public spaces, and encompasses factors like the presence of pollutants, temperature, humidity, and ventilation. Good IAQ is essential for the well-being of occupants, as it can impact respiratory health, cognitive function, and overall comfort.
+        Adequate ventilation, effective air filtration, and the use of low-VOC (volatile organic compounds) materials are key strategies for improving indoor air quality. By addressing IAQ, we not only enhance the health and productivity of building occupants but also contribute to sustainability by reducing the need for high-energy air purification systems and the environmental impact of poor indoor air quality. In a world where people spend a significant portion of their time indoors, maintaining high indoor air quality is of paramount importance for both public health and environmental responsibility.</string>
+
+    <string name="news_biogas">A biogas power system is a renewable energy technology that harnesses the natural process of organic decomposition to produce biogas, which is primarily composed of methane. This biogas can be used as a sustainable source of energy for various applications, including electricity generation and heat production. Here is a paragraph explaining the concept of a biogas power system:
+        "A biogas power system represents a shining example of sustainable energy generation, utilizing organic waste materials to produce clean and renewable biogas. This process begins with the anaerobic digestion of organic matter, such as agricultural residues, food scraps, or wastewater, in a controlled environment. As the organic materials break down, they release methane-rich biogas, a potent greenhouse gas if released into the atmosphere. However, in a biogas power system, this biogas is captured, stored, and used as a valuable energy source. It can be burned to generate electricity, heat, or even used as a vehicle fuel. Not only does this technology offer a greener and more environmentally friendly energy solution, but it also tackles the challenge of organic waste management and contributes to reducing greenhouse gas emissions, making it a win-win for both energy sustainability and environmental conservation."</string>
+
+    <string name="news_irrigation">An irrigation system is a vital component of modern agriculture and landscape management, ensuring the controlled and efficient distribution of water to crops, gardens, and green spaces. It plays a pivotal role in optimizing water usage, enhancing crop yields, and maintaining the health and vitality of landscapes. Here is a paragraph on irrigation systems: "An irrigation system is the lifeblood of sustainable agriculture and lush landscapes. It provides a well-organized and efficient method for delivering water to plants and crops, addressing the critical need for hydration in a controlled manner. These systems range from traditional surface irrigation to more advanced technologies like drip and sprinkler systems.
+        By precisely regulating water flow and distribution, irrigation systems not only promote the growth of healthy crops but also reduce water wastage, an increasingly critical concern in an era of climate change and water scarcity. These systems have become a cornerstone of modern farming and landscaping, exemplifying the fusion of technology and environmental responsibility in ensuring food security and maintaining vibrant green spaces."</string>
+
+    <string name="news_metering">Energy metering, often referred to as utility metering or smart metering, is a fundamental practice in the monitoring and management of energy consumption. It involves the measurement and recording of electricity, gas, water, or other utility usage in residential, commercial, and industrial settings. Here is a paragraph explaining the concept of energy metering: "Energy metering stands as a linchpin in the quest for more efficient energy utilization. These sophisticated devices meticulously measure the consumption of electricity, gas, or water, providing accurate data on usage patterns.
+        Beyond simple billing, energy metering has evolved into a vital tool for energy management, especially in an era of heightened environmental awareness and a growing emphasis on sustainability. Smart meters, equipped with real-time data collection and communication capabilities, empower consumers and utilities alike to make informed decisions about energy use. This information not only fosters greater accountability but also drives energy conservation by encouraging more mindful consumption. Energy metering represents a pivotal step in our journey toward a greener and more energy-efficient future, where knowledge is power, and responsible energy use is a collective goal."</string>
+
+
+    <string-array name="management">
+        <item>Select</item>
+        <item>Building Users’ Guide </item>
+        <item>Environmental Management</item>
+    </string-array>
+    <string-array name="sustainable_sites">
+        <item>Select</item>
+        <item>GREENSL® Rated Design and Construction </item>
+        <item>Facility Management – Building Exterior and Hardscape Management</item>
+        <item>Facility Management – Outdoor Integrated Pest Management, Erosion Control and Landscape Management</item>
+        <item>Low-Emitting and Fuel Efficient Vehicles</item>
+        <item>Protect or Restore Open Habitat</item>
+        <item>Storm Water Design – Quantity Control</item>
+        <item>Storm Water Design – Quality Control</item>
+        <item>Heat Island Effect – Non-Roof</item>
+        <item>Heat Island Effect – Roof</item>
+        <item>Light Pollution Reduction</item>
+    </string-array>
+    <string-array name="water_efficiency">
+        <item>Select</item>
+        <item>Measure Total Water Consumption of the Building </item>
+        <item>Measure Water Usage of Building Subsystems</item>
+        <item>Reduce Potable Water Consumption</item>
+        <item>Eliminate Potable Water Consumption</item>
+        <item>Water Efficiency in Air-conditioning System</item>
+        <item>Reduce Potable Water Use or Treat Wastewater</item>
+        <item>Harvested Rainwater </item>
+        <item>Water Use Reduction</item>
+        <item>Innovative Water Transmission </item>
+    </string-array>
+    <string-array name="energy_and_atmosphere">
+        <item>Select</item>
+        <item>CFC Reduction in HVACR Equipment</item>
+        <item>Optimise Energy Performance</item>
+        <item>Ozone Depletion </item>
+        <item>Performance Measurement – Building Management System </item>
+        <item>Green Power</item>
+        <item>Ongoing Commissioning </item>
+    </string-array>
+    <string-array name="material_and_resources">
+        <item>Select</item>
+        <item>Solid Waste Management – Waste Stream Audit  </item>
+        <item>Solid Waste Management – Ongoing Consumables </item>
+        <item>Solid Waste Management – Durable Goods </item>
+        <item>Solid Waste Management – Facility Alterations and Additions </item>
+    </string-array>
+    <string-array name="indoor_environmental_quality">
+        <item>Select</item>
+        <item>Outdoor Air Delivery Monitoring </item>
+        <item>Green Cleaning Program</item>
+        <item>Indoor Integrated Pest Management</item>
+        <item>Thermal Comfort Monitoring</item>
+        <item>Occupancy Comfort Surveys</item>
+    </string-array>
+    <string-array name="innovation_and_design">
+        <item>Select</item>
+        <item> Innovation in Design</item>
+        <item>Exemplary Performance</item>
+    </string-array>
+
+
+
+    <string-array name="MoreDetails">
+
+        <item>Select category</item>
+        <item>Bamboo Flooring</item>
+        <item>Bio Gas Power System</item>
+        <item>Energy Efficiency</item>
+        <item>Energy Metering</item>
+        <item> Green Concrete</item>
+        <item>Indoor Air Quality</item>
+        <item>Irrigation System</item>
+        <item>LEED Certification</item>
+        <item>Natural Fiber Carpets</item>
+        <item>Rain Water Harvesting</item>
+        <item>Recycled Metal</item>
+        <item>Recycled Plastic Bottles</item>
+        <item>Recycled Plastic Fencing Posts</item>
+        <item>Solar Panels</item>
+        <item>Sustainable Wood</item>
+        <item>Waste Reduction</item>
+    </string-array>
+
+
+    <string name="button1">Tender</string>
+
+
+    <string-array name="districts">
+        <item>Anuradhapura</item>
+        <item>Ampara</item>
+        <item>Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Kegalle</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Mathara</item>
+        <item>Monaragala</item>
+        <item>Mulathivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalama</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+
+    <string name="title1">Tender Lists</string>
+    <string name="title2">Tender List</string>
+    <string name="title4">Bidder List</string>
+
+</resources>

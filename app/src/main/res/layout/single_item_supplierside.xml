@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:id="@+id/single_item_ss_img_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/cement" />
+
+                <ImageView
+                    android:id="@+id/single_item_ss_add_img_v"
+                    android:layout_width="74dp"
+                    android:layout_height="62dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@android:drawable/ic_menu_camera" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="530dp"
+                android:layout_marginLeft="-400dp"
+                android:layout_marginTop="250dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/single_item_ss_et_itemName"
+                    android:layout_width="365dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Item Name"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/single_item_ss_et_itemBrands"
+                    android:layout_width="365dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Available Brands(seperate using &quot;/&quot;)"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/single_item_ss_et_itemPrice"
+                    android:layout_width="365dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="Minimum Unit Price (Rs)"
+                    android:inputType="phone"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/single_item_ss_radio"
+                    android:layout_width="365dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF">
+
+                    <RadioButton
+                        android:id="@+id/single_item_ss_radio_retail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Available at retail only"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/single_item_ss_radio_bulk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Available at bulk only"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/single_item_ss_radio_retail_bulk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Available at retail and bulk"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/single_item_ss_radio_not"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Currently not available"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <CheckBox
+                    android:id="@+id/single_item_ss_check_nego"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Available for price negotiation"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/single_item_ss_btn_add"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Add item" />
+
+                <Button
+                    android:id="@+id/single_item_ss_btn_cancel"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="Cancel" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
